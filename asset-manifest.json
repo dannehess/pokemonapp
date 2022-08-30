@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pokemonapp/static/css/main.35c8c779.css",
-    "main.js": "/pokemonapp/static/js/main.630e2283.js",
+    "main.js": "/pokemonapp/static/js/main.eef67fbe.js",
     "index.html": "/pokemonapp/index.html",
     "main.35c8c779.css.map": "/pokemonapp/static/css/main.35c8c779.css.map",
-    "main.630e2283.js.map": "/pokemonapp/static/js/main.630e2283.js.map"
+    "main.eef67fbe.js.map": "/pokemonapp/static/js/main.eef67fbe.js.map"
   },
   "entrypoints": [
     "static/css/main.35c8c779.css",
-    "static/js/main.630e2283.js"
+    "static/js/main.eef67fbe.js"
   ]
 }
