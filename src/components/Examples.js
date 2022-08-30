@@ -4,7 +4,6 @@ import { PokemonContext } from '../context/PokemonContext';
 const Examples = () => {
 
     const {examples, capitalize} = useContext(PokemonContext);
-    console.log('examsd', examples);
 
     return(
         <div className="examples-wrapper">

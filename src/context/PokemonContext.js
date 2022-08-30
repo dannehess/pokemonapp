@@ -27,7 +27,7 @@ export const PokemonContextProvider = (props) => {
   const searchPokemon = async(e) => {
     e.preventDefault();
     if (search !== "") {
-      fetch(`https://pokeapi.co/api/v2/pokemon/${search}`)
+      fetch(`https://pokeapi.co/api/v2/pokemon/${search.toLowerCase()}`)
         .then(response => response.json())
         .then(data => {
           setPokemon({

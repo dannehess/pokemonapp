@@ -3,7 +3,7 @@ import { PokemonContext } from '../context/PokemonContext';
 
 const Card = () => {
     
-    const {error, pokemon, capitalize} = useContext(PokemonContext);
+    const {pokemon, capitalize} = useContext(PokemonContext);
 
     const { id, 
             name,
@@ -21,8 +21,8 @@ const Card = () => {
             <h2 className="name">{name}</h2>
             {sprites &&
             <div className="sprites">
-            <img src={sprites.front_default} />
-            <img src={sprites.back_default} />
+            <img alt="pokemon" src={sprites.front_default} />
+            <img alt="pokemon" src={sprites.back_default} />
             </div>
             }
             <div className="flex space-between">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { PokemonContextProvider } from './context/PokemonContext';
 import Header from './components/Header';

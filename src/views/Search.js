@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import SearchBar from "../components/SearchBar";
 import Card from "../components/Card";
 import Examples from "../components/Examples";
 import { PokemonContext } from "../context/PokemonContext";
