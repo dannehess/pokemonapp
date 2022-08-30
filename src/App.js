@@ -13,6 +13,7 @@ const App = () => {
     <Router>
          <Routes>
             <Route exact path='/' element={<Search />} />
+            <Route exact path='/pokemonapp' element={<Search />} />
         </Routes>
     </Router>
     </div>
